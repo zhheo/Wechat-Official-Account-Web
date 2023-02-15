@@ -1,0 +1,82 @@
+body {
+  background: #f6f7f8;
+  margin: 0;
+  padding: 0;
+}
+
+.wechatOA {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--vh);
+}
+
+.wechat-card {
+  background: #fff;
+  max-width: 428px;
+  max-height: 569px;
+  border-radius: 16px;
+  padding: 24px 36px 20px 36px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.qrcode {
+  background-image: url(./img/qrcode.png);
+  background-size: contain;
+  width: 256px;
+  height: 256px;
+  display: flex;
+}
+
+.tips {
+  font-size: 14px;
+  color: #000;
+  opacity: 0.5;
+  margin-top: 8px;
+}
+
+.wechatOA-card {
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+  background: #F7F7F7;
+  padding: 18px;
+  border-radius: 16px;
+  align-items: center;
+}
+
+.wechatOA-head {
+  width: 48px;
+  height: 48px;
+  background-image: url(./img/icon.webp);
+  border-radius: 68px;
+  background-size: contain;
+  margin-right: 16px;
+}
+
+.wechatOA-name {
+  font-weight: bold;
+}
+
+.wechatOA-description {
+  font-size: 12px;
+  color: #000;
+  opacity: 0.5;
+}
+
+a.help {
+  font-size: 14px;
+  color: #000;
+  opacity: 0.5;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+a.help:visited {
+  color: #000;
+}
