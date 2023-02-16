@@ -26,8 +26,6 @@ body {
 }
 
 .qrcode {
-  background-image: url(./img/qrcode.png);
-  background-size: contain;
   width: 256px;
   height: 256px;
   display: flex;
