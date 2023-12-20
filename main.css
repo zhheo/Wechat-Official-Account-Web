@@ -13,6 +13,10 @@ body {
   height: var(--vh);
 }
 
+.wechat {
+  margin: auto;
+}
+
 .wechat-card {
   background: #fff;
   max-width: 428px;
@@ -21,7 +25,7 @@ body {
   padding: 24px 36px 20px 36px;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-top: 8px;
   align-items: center;
 }
 
@@ -67,14 +71,68 @@ body {
   opacity: 0.5;
 }
 
-a.help {
+a.footer-item {
   font-size: 14px;
   color: #000;
   opacity: 0.5;
   text-decoration: none;
-  margin: 20px 0;
+  margin: 20px 8px;
 }
 
-a.help:visited {
+a.footer-item:visited {
   color: #000;
+}
+
+.wechat-need-reply {
+  background: #fff;
+  max-width: 328px;
+  max-height: 569px;
+  border-radius: 16px;
+  padding: 24px 36px 20px 36px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+img.wechat-need-reply-copybtn-img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.wechat-need-reply-copybtn {
+  display: flex;
+  padding: 12px 12px 12px 20px;
+  background: #1ba059;
+  color: #fff;
+  border-radius: 12px;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wechat-need-reply-copybtn:hover {
+  opacity: 0.8;
+}
+
+span#wechat-need-reply-text {
+  line-height: 1;
+  margin: auto;
+}
+
+span.wechat-need-reply-front {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+span.wechat-need-reply-back {
+  font-size: 14px;
+  color: #000;
+}
+
+.footer {
+  display: flex;
 }
