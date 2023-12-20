@@ -9,7 +9,7 @@
 可以在url中携带参数。例如
 
 ```
-http://www.example.com?replyText=欢迎关注
+https://blog.zhheo.com/wechatOA/?replyText=欢迎关注
 ```
 
 ### replyText
