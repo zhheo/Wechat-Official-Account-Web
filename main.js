@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   // 检测是否有replyText参数
   if (replyText) {
       // 如果有参数，则更新wechat-need-reply-text的内容
+      document.getElementById('wechat-need-reply').style.display = 'flex';
       document.getElementById('wechat-need-reply-text').textContent = replyText;
   } else {
       // 如果没有参数，则隐藏wechat-need-reply部分
